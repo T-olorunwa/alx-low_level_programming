@@ -8,6 +8,7 @@
 
 int main(void)
 {
+	int x;
 
 	for (int x = 'A' ; x <= 'Z'; x++)
 {
