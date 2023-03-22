@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
  *  main - Entry point
@@ -6,18 +7,14 @@
  *  Return: Always 0 (Success)
  */
 
-int main(void)
+
+void alpha(void)
 {
-	void alpha(void)
-	{
-		int x;
+	int x;
 
-		for (x = 'a'; x <= 'z'; x++)
-			putchar(x);
-			
-		putchar('\n');
-	}
-
-	return alpha(void);
-	return (0);
+	for (x = 'a'; x <= 'z'; x++)
+		putchar(x);
+		
+	putchar('\n');
 }
+
