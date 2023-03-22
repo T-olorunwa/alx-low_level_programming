@@ -13,4 +13,4 @@ int _putchar(char c)
 }
 
 
-char alpha()
+void print_alphabet(void);
