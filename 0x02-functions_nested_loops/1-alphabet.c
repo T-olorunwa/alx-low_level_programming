@@ -8,15 +8,16 @@
 
 int main(void)
 {
-	char alpha()
+	void alpha(void)
 	{
 		int x;
 
 		for (x = 'a'; x <= 'z'; x++)
 			putchar(x);
-			putchar('\n')
+			
+		putchar('\n');
 	}
 
-	return alpha();
+	return alpha(void);
 	return (0);
 }
