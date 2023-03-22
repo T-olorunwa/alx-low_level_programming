@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Prints "_putchar" folloewd by a newn line.
  *
  * Return: Always 0 (Success)
