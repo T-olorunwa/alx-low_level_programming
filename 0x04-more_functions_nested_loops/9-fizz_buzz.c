@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+i * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -12,14 +13,18 @@ int main(void)
 	for (x = 1; x <= 100; x++)
 	{
 		if ((x % 3) == 0)
-			printf("Fizz " );
+			printf("Fizz");
 		else if ((x % 5) == 0)
-			printf("Buzz ");
+			printf("Buzz");
 		else if ((x % 15) == 0)
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else
-			printf("%d ", x);
+			printf("%d", x);
+		if (num == 100)
+			continue;
+		printf(" ");
 	}
+
 	putchar("\n");
 	return (0);
 }
