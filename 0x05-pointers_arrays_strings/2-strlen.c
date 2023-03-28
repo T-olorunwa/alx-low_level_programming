@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 
 /**
  * strlen - prints the length of a string.
@@ -7,5 +8,6 @@
 
 int _strlen(char *s)
 {
+	int s
 	printf("%s\n", strlen(s));
 }
