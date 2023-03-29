@@ -8,7 +8,7 @@
 
 int _strlen(char *s)
 {
-	int s;
+	int *s;
 
 	printf("%zu\n", strlen(s));
 }
