@@ -6,7 +6,7 @@
  * @s: string to be printed.
  */
 
-int _strlen(char *s)
+int _strlen(char *)
 {
 	char *s;
 
