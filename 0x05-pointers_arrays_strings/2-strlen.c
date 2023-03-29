@@ -10,5 +10,5 @@ int _strlen(char *s)
 {
 	int s;
 
-	printf("%s\n", strlen(s));
+	printf("%zu\n", strlen(s));
 }
