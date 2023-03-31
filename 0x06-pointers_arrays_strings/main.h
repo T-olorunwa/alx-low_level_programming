@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * File name: main.h
+ * description: Header file for all 
+ * prototypes of function
+ */
+
 
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
