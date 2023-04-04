@@ -12,11 +12,12 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
-	unsigned char *memory = s; /*\*memory isthe pointer to the memory s*/
+	unsigned char *memory = s;
+	unsighned char j = b;
 
 	for (i = 0; i <= n; i++)
 	{
-		memory[i] = b;
+		memory[i] = j;
 	}
 
 	return (memory);
