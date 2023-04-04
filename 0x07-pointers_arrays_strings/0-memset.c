@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * memset - fills memory with a constant byte
@@ -12,7 +12,7 @@ include "main.h"
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
-	*memory = s; /*\*memory isthe pointer to the memory s*/
+	unsigned char *memory = s; /*\*memory isthe pointer to the memory s*/
 
 	for (i = 0; i <= n; i++)
 	{
