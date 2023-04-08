@@ -1,8 +1,8 @@
 #include "main.h"
 #include <math.h>
 /**
- * _pow_recursion - a function that raises an integer 
- * 		to another integer
+ * _pow_recursion - a function that raises an integer
+ *			to another integer
  * @x: The base of the equation
  * @y: The power of the equation
  *
