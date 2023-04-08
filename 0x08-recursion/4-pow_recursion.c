@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <math.h>
 /**
  * _pow_recursion - a function that raises an integer 
  * 		to another integer
