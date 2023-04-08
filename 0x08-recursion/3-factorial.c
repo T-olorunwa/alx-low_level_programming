@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _factorial - Prints the factorial of a number
+ * factorial - Prints the factorial of a number
  * @n: The number which factorial is to be calculated
- * 
+ *
  * Return: -1 if n < 0
  */
 
