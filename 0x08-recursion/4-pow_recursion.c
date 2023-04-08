@@ -11,10 +11,14 @@
 
 int _pow_recursion(int x, int y)
 {
-	int res = (int)pow(x, y);
+	int res;
+
+	res = (int)pow(x, y);
 
 	if (y < 0)
 		return (-1);
+	else if (y == 0)
+		return (1);
 	else
 		return (res);
 }
