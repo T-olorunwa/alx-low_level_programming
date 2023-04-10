@@ -9,10 +9,9 @@
 
 int _sqrt_recursion(int n)
 {
-	int sqrt();
 	int squareRoot = sqrt(n); 
 
-	if (!(squareRoot))
+	if ((squareRoot))
 		return (-1);
 
 	return (squareRoot);
