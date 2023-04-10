@@ -6,7 +6,8 @@
  * @argc: Argument counter
  * @argv: Pointer to array of strings
  *
- * Return: Always 0 (Success)
+ * Return: Zero (0), if the program receives two arguments
+ *	one (1), if the program receives less than 2 arguments
  */
 
 int main(int argc, char *argv[])
